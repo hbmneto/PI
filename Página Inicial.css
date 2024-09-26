@@ -1,0 +1,64 @@
+css
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    padding: 2em;
+    padding-top: 4em; /* Espaço para a barra superior */
+}
+
+.project-title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.project-description {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    background-color: #e7e7e7;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
